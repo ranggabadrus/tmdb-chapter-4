@@ -12,6 +12,10 @@ export default function App() {
       path: "/detail",
       element: <div>ini adalah detail</div>,
     },
+    {
+      path: "/search",
+      element: <div>ini adalah search</div>,
+    },
   ]);
 
   return <RouterProvider router={router} />;

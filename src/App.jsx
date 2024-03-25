@@ -8,6 +8,10 @@ export default function App() {
       path: "/",
       element: <Home />,
     },
+    {
+      path: "/detail",
+      element: <div>ini adalah detail</div>,
+    },
   ]);
 
   return <RouterProvider router={router} />;

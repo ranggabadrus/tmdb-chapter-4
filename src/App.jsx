@@ -1,6 +1,7 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Home";
+import Detail from "./Detail";
 
 export default function App() {
   const router = createBrowserRouter([
@@ -10,7 +11,7 @@ export default function App() {
     },
     {
       path: "/detail",
-      element: <div>ini adalah detail</div>,
+      element: <Detail />,
     },
     {
       path: "/search",
